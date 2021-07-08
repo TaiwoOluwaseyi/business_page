@@ -14,6 +14,8 @@ nav ul {
     min-height: 10vh;
     justify-content: space-around;
   align-items: center;
+  list-style: none;
+  cursor: pointer;
 }
 
 
@@ -31,4 +33,45 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* position: relative; */
 }
+
+
+.hero h2 {
+    text-align: center;
+    margin: 2rem;
+}
+
+.hero button {
+    padding: 1rem 2rem;
+    margin-left: 10rem;
+    border: none;
+    background-color: lightblue;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro img {
+    height: 10rem;
+}
+.intro-img {
+    flex: 1 1 20rem;
+    background-color: lightblue;
+}
+.intro-text {
+    flex: 1 1 20rem;
+    background-color: lightcoral;
+}
+/* .overlay { */
+    /* height: 100%; */
+    /* width: 100%; */
+    /* position: absolute; */
+    /* background-color: rgba(0, 0, 0, 0.6); */
+/* } */
+/* .info { */
+    /* z-index: 10; */
+    /* text-align: center; */
+/* } */
