@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap');
+ 
+body {
+    font-family:  'Encode Sans SC', sans-serif;
+}
 *{
     margin: 0;
     padding: 0;
@@ -8,16 +13,22 @@ a {
     color: black;
     text-decoration: none;
 }
+
+a:hover {
+    color: tomato;
+}
 nav ul {
     display: flex;
     padding: 1 rem ;
     min-height: 10vh;
     justify-content: space-around;
-  align-items: center;
-  list-style: none;
-  cursor: pointer;
+    align-items: center;
+    list-style: none;
+   cursor: pointer;
 }
-
+ h1 {
+     color: tomato;
+ }
 
 img {
     height: 2rem;
@@ -33,7 +44,7 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* position: relative; */
+    position: relative;
 }
 
 
@@ -44,9 +55,9 @@ img {
 
 .hero button {
     padding: 1rem 2rem;
-    margin-left: 10rem;
     border: none;
-    background-color: lightblue;
+    background-color: tomato;
+    color: white;
 }
 
 .intro {
@@ -60,7 +71,7 @@ img {
 }
 .intro-img {
     flex: 1 1 30rem;
-    background-color: lightblue;
+    object-fit: scale-down;
 }
 .intro-text {
     flex: 1 1 30rem;
@@ -68,23 +79,23 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: lightblue;
 }
 .intro-text h2 {
     padding: 2rem;
+    color: tomato;
 }
 
 .intro-text p {
     padding: 1rem;
     text-align: center;
 }
-/* .overlay { */
-    /* height: 100%; */
-    /* width: 100%; */
-    /* position: absolute; */
-    /* background-color: rgba(0, 0, 0, 0.6); */
-/* } */
-/* .info { */
-    /* z-index: 10; */
-    /* text-align: center; */
-/* } */
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.info {
+    z-index: 10;
+    text-align: center;
+}
